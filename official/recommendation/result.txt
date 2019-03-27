@@ -1,0 +1,102 @@
+Adgrad
+Iteration 1: HR = 0.2457, NDCG = 0.1300
+Iteration 2: HR = 0.3962, NDCG = 0.2191
+Iteration 3: HR = 0.4449, NDCG = 0.2459
+Iteration 4: HR = 0.4573, NDCG = 0.2502
+Iteration 5: HR = 0.4566, NDCG = 0.2441
+Iteration 6: HR = 0.4561, NDCG = 0.2467
+Iteration 7: HR = 0.4545, NDCG = 0.2481
+Iteration 8: HR = 0.4550, NDCG = 0.2496
+Iteration 9: HR = 0.4563, NDCG = 0.2501
+Iteration 10: HR = 0.4553, NDCG = 0.2500
+Iteration 11: HR = 0.4571, NDCG = 0.2509
+Iteration 12: HR = 0.4556, NDCG = 0.2508
+Iteration 13: HR = 0.4565, NDCG = 0.2514
+Iteration 14: HR = 0.4563, NDCG = 0.2513
+Iteration 15: HR = 0.4558, NDCG = 0.2510
+Iteration 16: HR = 0.4551, NDCG = 0.2512
+Iteration 17: HR = 0.4561, NDCG = 0.2514
+Iteration 18: HR = 0.4555, NDCG = 0.2512
+Iteration 19: HR = 0.4545, NDCG = 0.2510
+Iteration 20: HR = 0.4548, NDCG = 0.2512
+
+Adam
+Iteration 1: HR = 0.5722, NDCG = 0.3179
+Iteration 2: HR = 0.5916, NDCG = 0.3291
+Iteration 3: HR = 0.5831, NDCG = 0.3266
+Iteration 4: HR = 0.5462, NDCG = 0.3105
+Iteration 5: HR = 0.5452, NDCG = 0.3084
+
+Attention num_blocks = 6 num_heads = 2
+Iteration 1: HR = 0.5175, NDCG = 0.2803
+Iteration 3: HR = 0.5315, NDCG = 0.2945
+Iteration 4: HR = 0.5323, NDCG = 0.2940
+Iteration 5: HR = 0.5447, NDCG = 0.3050
+Iteration 6: HR = 0.5444, NDCG = 0.3072
+Iteration 7: HR = 0.5522, NDCG = 0.3102
+Iteration 8: HR = 0.5593, NDCG = 0.3154
+Iteration 9: HR = 0.5710, NDCG = 0.3239
+Iteration 10: HR = 0.5606, NDCG = 0.3192
+Iteration 11: HR = 0.5575, NDCG = 0.3211
+Iteration 12: HR = 0.5596, NDCG = 0.3222
+Iteration 13: HR = 0.5558, NDCG = 0.3201
+Iteration 14: HR = 0.5588, NDCG = 0.3200
+Iteration 15: HR = 0.5573, NDCG = 0.3192
+Iteration 16: HR = 0.5656, NDCG = 0.3232
+Iteration 17: HR = 0.5566, NDCG = 0.3190
+Iteration 18: HR = 0.5558, NDCG = 0.3218
+Iteration 19: HR = 0.5550, NDCG = 0.3225
+Iteration 20: HR = 0.5467, NDCG = 0.3183
+
+
+Attention num_blocks = 5 num_heads = 2
+Iteration 1: HR = 0.5083, NDCG = 0.2749
+Iteration 2: HR = 0.5046, NDCG = 0.2767
+Iteration 3: HR = 0.5099, NDCG = 0.2841
+Iteration 4: HR = 0.5073, NDCG = 0.2856
+Iteration 5: HR = 0.5154, NDCG = 0.2900
+Iteration 6: HR = 0.5164, NDCG = 0.2926
+Iteration 7: HR = 0.5214, NDCG = 0.2970
+
+Attention num_blocks = 8 num_heads = 2
+Iteration 1: HR = 0.5200, NDCG = 0.2824
+Iteration 2: HR = 0.5536, NDCG = 0.3050
+Iteration 3: HR = 0.5680, NDCG = 0.3153
+Iteration 4: HR = 0.5626, NDCG = 0.3154
+Iteration 5: HR = 0.5553, NDCG = 0.3124
+Iteration 6: HR = 0.5450, NDCG = 0.3105
+Iteration 7: HR = 0.5409, NDCG = 0.3083
+Iteration 8: HR = 0.5563, NDCG = 0.3144
+Iteration 9: HR = 0.5469, NDCG = 0.3156
+Iteration 10: HR = 0.5425, NDCG = 0.3103
+Iteration 11: HR = 0.5470, NDCG = 0.3133
+Iteration 12: HR = 0.5404, NDCG = 0.3096
+Iteration 13: HR = 0.5457, NDCG = 0.3129
+Iteration 14: HR = 0.5525, NDCG = 0.3179
+Iteration 15: HR = 0.5732, NDCG = 0.3270
+Iteration 16: HR = 0.5470, NDCG = 0.3144
+Iteration 17: HR = 0.5356, NDCG = 0.3105
+
+
+Attention num_blocks = 6 num_heads = 4
+
+Iteration 1: HR = 0.4767, NDCG = 0.2549
+Iteration 2: HR = 0.4969, NDCG = 0.2723
+Iteration 3: HR = 0.5156, NDCG = 0.2860
+Iteration 4: HR = 0.5179, NDCG = 0.2929
+Iteration 5: HR = 0.5242, NDCG = 0.2959
+Iteration 6: HR = 0.5257, NDCG = 0.2993
+Iteration 7: HR = 0.5315, NDCG = 0.3018
+Iteration 8: HR = 0.5323, NDCG = 0.3048
+Iteration 9: HR = 0.5273, NDCG = 0.3011
+Iteration 10: HR = 0.5233, NDCG = 0.2998
+Iteration 11: HR = 0.5240, NDCG = 0.2981
+Iteration 12: HR = 0.5296, NDCG = 0.3046
+Iteration 13: HR = 0.5275, NDCG = 0.3036
+Iteration 14: HR = 0.5363, NDCG = 0.3081
+Iteration 15: HR = 0.5338, NDCG = 0.3052
+Iteration 16: HR = 0.5328, NDCG = 0.3054
+Iteration 17: HR = 0.5255, NDCG = 0.3002
+Iteration 18: HR = 0.5320, NDCG = 0.3047
+Iteration 19: HR = 0.5296, NDCG = 0.3055
+Iteration 20: HR = 0.5272, NDCG = 0.3013
