@@ -111,8 +111,8 @@ def model_fn(features, labels, mode, params):
     for _ in range(num_bolcks):
         mf_embedding_user = multihead_attention(mf_embedding_user, mf_embedding_item, num_heads=4)
 
-        mf_embedding_user = feedforward(mf_embedding_user, num_units=[mf_dim * 4, mf_dim])
-        mf_embedding_user = tf.keras.layers.BatchNormalization()(mf_embedding_user)
+        # mf_embedding_user = feedforward(mf_embedding_user, num_units=[mf_dim * 4, mf_dim])
+        # mf_embedding_user = tf.keras.layers.BatchNormalization()(mf_embedding_user)
 
     mf_user_latent = tf.keras.layers.Flatten()(mf_embedding_user)
     mf_item_latent = tf.keras.layers.Flatten()(mf_embedding_item)

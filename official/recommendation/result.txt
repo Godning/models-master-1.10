@@ -79,7 +79,6 @@ Iteration 17: HR = 0.5356, NDCG = 0.3105
 
 
 Attention num_blocks = 6 num_heads = 4
-
 Iteration 1: HR = 0.4767, NDCG = 0.2549
 Iteration 2: HR = 0.4969, NDCG = 0.2723
 Iteration 3: HR = 0.5156, NDCG = 0.2860
@@ -100,3 +99,105 @@ Iteration 17: HR = 0.5255, NDCG = 0.3002
 Iteration 18: HR = 0.5320, NDCG = 0.3047
 Iteration 19: HR = 0.5296, NDCG = 0.3055
 Iteration 20: HR = 0.5272, NDCG = 0.3013
+
+Attention num_blocks = 6 num_heads = 4 batch norm
+Iteration 1: HR = 0.5187, NDCG = 0.2868
+Iteration 2: HR = 0.5912, NDCG = 0.3312
+Iteration 3: HR = 0.6175, NDCG = 0.3526
+Iteration 4: HR = 0.6338, NDCG = 0.3662
+Iteration 5: HR = 0.6417, NDCG = 0.3737
+Iteration 6: HR = 0.6447, NDCG = 0.3774
+Iteration 7: HR = 0.6419, NDCG = 0.3745
+Iteration 8: HR = 0.6470, NDCG = 0.3781
+Iteration 9: HR = 0.6469, NDCG = 0.3820
+Iteration 10: HR = 0.6546, NDCG = 0.3845
+Iteration 11: HR = 0.6512, NDCG = 0.3829
+Iteration 12: HR = 0.6522, NDCG = 0.3865
+Iteration 13: HR = 0.6551, NDCG = 0.3848
+Iteration 14: HR = 0.6531, NDCG = 0.3828
+Iteration 15: HR = 0.6515, NDCG = 0.3841
+Iteration 16: HR = 0.6556, NDCG = 0.3853
+Iteration 17: HR = 0.6563, NDCG = 0.3868
+Iteration 18: HR = 0.6548, NDCG = 0.3856
+Iteration 19: HR = 0.6579, NDCG = 0.3874
+Iteration 20: HR = 0.6588, NDCG = 0.3877
+
+
+Attention num_blocks = 6 num_heads = 2 batch norm
+Iteration 1: HR = 0.4930, NDCG = 0.2672
+Iteration 2: HR = 0.5040, NDCG = 0.2691
+Iteration 3: HR = 0.5172, NDCG = 0.2805
+Iteration 4: HR = 0.5276, NDCG = 0.2916
+Iteration 5: HR = 0.5469, NDCG = 0.3038
+Iteration 6: HR = 0.5505, NDCG = 0.3079
+Iteration 7: HR = 0.5518, NDCG = 0.3089
+Iteration 8: HR = 0.5579, NDCG = 0.3149
+Iteration 9: HR = 0.5576, NDCG = 0.3162
+Iteration 10: HR = 0.5563, NDCG = 0.3149
+Iteration 11: HR = 0.5641, NDCG = 0.3162
+Iteration 12: HR = 0.5604, NDCG = 0.3163
+Iteration 13: HR = 0.5624, NDCG = 0.3175
+Iteration 14: HR = 0.5512, NDCG = 0.3142
+Iteration 15: HR = 0.5498, NDCG = 0.3131
+Iteration 16: HR = 0.5497, NDCG = 0.3125
+Iteration 17: HR = 0.5561, NDCG = 0.3150
+Iteration 18: HR = 0.5533, NDCG = 0.3134
+Iteration 19: HR = 0.5619, NDCG = 0.3166
+Iteration 20: HR = 0.5616, NDCG = 0.3188
+
+Attention num_blocks = 6 num_heads = 4 batch norm
+Iteration 1: HR = 0.4619, NDCG = 0.2466
+Iteration 2: HR = 0.4904, NDCG = 0.2665
+Iteration 3: HR = 0.5182, NDCG = 0.2874
+Iteration 4: HR = 0.5310, NDCG = 0.2927
+Iteration 5: HR = 0.5374, NDCG = 0.2993
+Iteration 6: HR = 0.5425, NDCG = 0.3030
+Iteration 7: HR = 0.5430, NDCG = 0.3050
+Iteration 8: HR = 0.5556, NDCG = 0.3104
+Iteration 9: HR = 0.5546, NDCG = 0.3102
+Iteration 10: HR = 0.5641, NDCG = 0.3179
+Iteration 11: HR = 0.5584, NDCG = 0.3158
+Iteration 12: HR = 0.5654, NDCG = 0.3175
+Iteration 13: HR = 0.5631, NDCG = 0.3162
+Iteration 14: HR = 0.5717, NDCG = 0.3234
+Iteration 15: HR = 0.5634, NDCG = 0.3182
+Iteration 16: HR = 0.5689, NDCG = 0.3211
+Iteration 17: HR = 0.5627, NDCG = 0.3192
+Iteration 18: HR = 0.5503, NDCG = 0.3111
+Iteration 19: HR = 0.5430, NDCG = 0.3091
+Iteration 20: HR = 0.5485, NDCG = 0.3088
+
+Attention num_blocks = 6 num_heads = 4 batch norm
+Iteration 1: HR = 0.5275, NDCG = 0.2875
+Iteration 2: HR = 0.5349, NDCG = 0.2979
+Iteration 3: HR = 0.5523, NDCG = 0.3061
+Iteration 4: HR = 0.5374, NDCG = 0.3003
+Iteration 5: HR = 0.5419, NDCG = 0.3026
+Iteration 6: HR = 0.5434, NDCG = 0.3035
+
+
+Attention num_blocks = 6 num_heads = 4 non-conv
+Iteration 1: HR = 0.5483, NDCG = 0.3013
+Iteration 2: HR = 0.5906, NDCG = 0.3322
+Iteration 3: HR = 0.5772, NDCG = 0.3235
+Iteration 4: HR = 0.5685, NDCG = 0.3215
+Iteration 5: HR = 0.5675, NDCG = 0.3201
+Iteration 6: HR = 0.5700, NDCG = 0.3228
+Iteration 7: HR = 0.5724, NDCG = 0.3278
+Iteration 8: HR = 0.5742, NDCG = 0.3274
+Iteration 9: HR = 0.5762, NDCG = 0.3293
+Iteration 10: HR = 0.5755, NDCG = 0.3295
+Iteration 11: HR = 0.5677, NDCG = 0.3278
+Iteration 12: HR = 0.5742, NDCG = 0.3309
+Iteration 13: HR = 0.5765, NDCG = 0.3318
+Iteration 14: HR = 0.5641, NDCG = 0.3258
+Iteration 15: HR = 0.5704, NDCG = 0.3261
+Iteration 16: HR = 0.5634, NDCG = 0.3267
+Iteration 17: HR = 0.5803, NDCG = 0.3323
+Iteration 18: HR = 0.5627, NDCG = 0.3252
+Iteration 19: HR = 0.5745, NDCG = 0.3313
+Iteration 20: HR = 0.5834, NDCG = 0.3371
+
+
+Attention num_blocks = 6 num_heads = 4 non-conv no-multiply
+
