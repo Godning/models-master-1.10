@@ -114,11 +114,11 @@ def model_fn(features, labels, mode, params):
         # mf_embedding_user = feedforward(mf_embedding_user, num_units=[mf_dim * 4, mf_dim])
         # mf_embedding_user = tf.keras.layers.BatchNormalization()(mf_embedding_user)
 
-    mf_user_latent = tf.keras.layers.Flatten()(mf_embedding_user)
-    mf_item_latent = tf.keras.layers.Flatten()(mf_embedding_item)
+    # mf_user_latent = tf.keras.layers.Flatten()(mf_embedding_user)
+    # mf_item_latent = tf.keras.layers.Flatten()(mf_embedding_item)
     # Element-wise multiply
-    mf_vector = tf.keras.layers.multiply([mf_user_latent, mf_item_latent])
-
+    # mf_vector = tf.keras.layers.multiply([mf_user_latent, mf_item_latent])
+    mf_vector = tf.keras.layers.Flatten()(mlp_embedding_user)
     # MLP part
     # Flatten the embedding vector as latent features in MLP
     mlp_user_latent = tf.keras.layers.Flatten()(mlp_embedding_user)

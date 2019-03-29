@@ -200,4 +200,11 @@ Iteration 20: HR = 0.5834, NDCG = 0.3371
 
 
 Attention num_blocks = 6 num_heads = 4 non-conv no-multiply
-
+Iteration 1: HR = 0.5252, NDCG = 0.2876
+Iteration 2: HR = 0.5825, NDCG = 0.3271
+Iteration 3: HR = 0.6131, NDCG = 0.3469
+Iteration 4: HR = 0.6267, NDCG = 0.3573
+Iteration 5: HR = 0.6363, NDCG = 0.3674
+Iteration 6: HR = 0.6452, NDCG = 0.3728
+Iteration 7: HR = 0.6497, NDCG = 0.3776
+Iteration 8: HR = 0.6490, NDCG = 0.3771
