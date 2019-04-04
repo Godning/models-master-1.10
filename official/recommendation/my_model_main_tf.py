@@ -32,7 +32,7 @@ from absl import flags
 
 from official.datasets import movielens
 from official.recommendation import movielens_dataset
-from official.recommendation.neumf_mode_tf import model_fn
+from official.recommendation.my_model_mode_tf import model_fn
 from official.utils.flags import core as flags_core
 from official.utils.logs import hooks_helper
 from official.utils.logs import logger
@@ -195,9 +195,7 @@ def run_ncf(_):
         "num_users": ncf_dataset.num_users,
         "num_items": ncf_dataset.num_items,
         "mf_dim": FLAGS.num_factors,
-
         "model_layers": layers,
-
         "mf_regularization": FLAGS.mf_regularization,
         "mlp_reg_layers": mlp_regularization,
         "lr": FLAGS.learning_rate
